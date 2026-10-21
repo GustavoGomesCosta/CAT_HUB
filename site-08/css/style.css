@@ -1,0 +1,99 @@
+body{
+    background-color: #3c424c;
+    color: #bea39c;
+    justify: center;
+    font-family: Arial, sans-serif;
+}
+body a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.container{
+    background-color: #bea39c;
+    color: #3c424c;
+    padding: 10px;
+    border-radius: 12px;
+    width: auto;
+}
+.container_lista{
+    background-color: #bea39c;
+    color: #3c424c;
+    padding: 10px;
+    border-radius: 12px;
+    width: 250px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #e5e7eb;
+    
+    }
+header{
+    padding: 30px;
+    background-color: #bea39c;
+    color: #3c424c;
+    font-family: Arial, sans-serif;
+    border-radius: 12px;
+    font-size: 15px;
+}
+nav{
+    padding: 15px;
+    background-color: #8b6154;
+    border-radius: 15px;
+}
+nav a{
+    margin: 5px;
+    color: #000000;
+    text-decoration: none;
+    text-decoration: solid;
+}
+.hub{
+    font-size: larger;
+    background-color: #000;
+    padding: 20px;
+    color: #eee;
+    width: 100%;
+    max-width: 80px;
+    border-radius: 10px;
+}
+.cat{
+    font-size: larger;
+    background-color: #5a3600;
+    padding: 20px;
+    color: #eee;
+    border-radius: 10px;
+    max-width: 80px;
+}
+.container-header {
+    display: flex;
+    gap: 3px;            
+    justify-content: center;
+    padding: 10px;
+}
+.botao{
+    margin: 10px;
+    padding: 10px;
+    background-color: #5a3600;
+    border-radius: 100px;
+    color: #bea39c;
+    width: 100%;
+    max-width: 80px;
+}
+ul {
+  /* Centraliza o bloco da lista inteira na tela */
+  margin: 0 auto;
+  padding: 0;
+  width: max-content; /* Faz a lista ter a largura exata do maior nome */
+  
+  /* Garante que a bolinha fique colada */
+  list-style-position: inside; 
+}
+
+li {
+  /* Alinha todos os nomes à esquerda dentro do bloco centralizado */
+  text-align: left; 
+}
